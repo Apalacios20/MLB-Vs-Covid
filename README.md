@@ -21,14 +21,13 @@ https://www.espn.com/mlb/attendance/_/year/2021
 
 https://www.espn.com/mlb/stats/player/_/view/batting/season/2021/seasontype/2/table/batting/sort/homeRuns/dir/desc
 
-![image](https://user-images.githubusercontent.com/100242077/176791358-381cedba-56db-4a05-8fa4-7618dbc6dcc6.png)
-
 
 
 Extract:
 Tools used to extract our data were Pandas and Splinter.
 
 Transform:
+
 -Pandas: Extract tables from sources and edit them as seen in the code.  
 -Splinter: There were some difficulties in the extraction specifically with the name column for multiple sources due to the fact the player name was mashed up with the team abbreaviation so splinter was used to find the xpath of the desired data being "Player Name" and "Team Abbreviation".
 

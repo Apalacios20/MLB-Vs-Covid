@@ -20,7 +20,7 @@ https://www.espn.com/mlb/stats/player/_/view/batting/season/2021/seasontype/2/ta
 
 ## Process:
 ### Extract:
-Library's used to extract our data were Pandas and Splinter.
+Libraries used to extract our data were Pandas and Splinter.
 
 ### Transform:
 -Pandas: Extract tables from sources and editeas seen in the scraping code.  

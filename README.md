@@ -20,14 +20,14 @@ https://www.espn.com/mlb/stats/player/_/view/batting/season/2021/seasontype/2/ta
 
 ## Process:
 ### Extract:
-Libraries used to extract our data were Pandas and Splinter.
+Libraries used to extract data were Pandas and Splinter.
 
 ### Transform:
 -Pandas: Extract tables from sources and editeas seen in the scraping code.  
 -Splinter: There were some difficulties in the extraction, specifically with the name column for multiple sources due to the player name mashed with the team abbreviation.  Therefore, splinter was used to find the XPath of the desired data being "Player Name" and "Team Abbreviation".
 
 ### Load:
-Exported Pandas data frames to CSV files, then imported into a NoSQL database.  Our database can tell you whatever it is you would like to know in the years 2019-2021 ranging from the Best Performing Player in many stat categories to the Best Performing Team.  Most importantly, you will see the effects of covid from year to year for both players and teams good and bad.
+Exported Pandas data frames to CSV files, then imported into a NoSQL database.  The database can tell you whatever it is you would like to know in the years 2019-2021 ranging from the Best Performing Player in many stat categories to the Best Performing Team.  Most importantly, you will see the effects of covid from year to year for both players and teams good and bad.
 
 
 
